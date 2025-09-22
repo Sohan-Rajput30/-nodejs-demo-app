@@ -15,4 +15,5 @@ docker pull YOUR_DOCKER_USERNAME/nodejs-demo-app:latest
 docker run -p 3000:3000 YOUR_DOCKER_USERNAME/nodejs-demo-app:latest
 
 When the app runs, visiting http://localhost:3000 in a browser shows a simple message, confirming everything works.
-In short, this project shows how to automate building, testing, and deploying a Node.js app entirely online using GitHub Actions and Docker. It’s a hands-on example of modern DevOps practices made simple.
+In short, this project shows how to automate building, testing, and deploying a Node.js app entirely online using GitHub Actions and Docker.
+I have used tools for reference such as chatgpt,youtube.
