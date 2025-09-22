@@ -10,8 +10,8 @@ Pushes the image to DockerHub, so it’s ready for deployment.
 All of this happens automatically, without me having to manually run commands. My DockerHub login is stored securely in GitHub as secrets, so it’s safe and never exposed in the code.
 This setup makes development and deployment fast, reliable, and consistent. Anyone can now pull the Docker image and run the app with just two commands:
 
-docker pull YOUR_DOCKER_USERNAME/my-node-app:latest
-docker run -p 3000:3000 YOUR_DOCKER_USERNAME/my-node-app:latest
+docker pull YOUR_DOCKER_USERNAME/nodejs-demo-app:latest
+docker run -p 3000:3000 YOUR_DOCKER_USERNAME/nodejs-demo-app:latest
 
 When the app runs, visiting http://localhost:3000 in a browser shows a simple message, confirming everything works.
 
